@@ -1,0 +1,398 @@
+.content {
+    background-color: #f8f8fc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content_container {
+    width: 100vw;
+    max-width: 1232px;
+    padding: 0 16px;
+}
+
+.access_his {
+    padding: 16px 0;
+}
+
+.access_his a {
+    height: 34px;
+    padding-right: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--text-gray);
+    display: inline-flex;
+    align-items: center;
+}
+
+.access_his a:last-child {
+    padding-right: 0 !important;
+    cursor: none;
+    pointer-events: none;
+}
+
+.access_his a span {
+    width: 24px;
+    text-align: right;
+}
+
+.access_his a span i{
+    color: #A7ABC3;
+    font-size: 10px;
+}
+/* main */
+.main {
+    display: flex;
+    margin-bottom: 16px;
+}
+/* main product */
+.product {
+    width: 75%;
+    background-color: #fff;
+    margin-right: 16px;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+}
+/* product image */
+.product_img_wrapper {
+    width: 40%;
+    padding-right: 16px;
+}
+
+.product_img_wrapper img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.product_img_wrapper .subimg {
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.product_img_wrapper .subimg-item {
+    height: 50px;
+}
+
+.product_img_wrapper .subimg-item img {
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.product .divider {
+    width: 100%;
+    margin: 24px 0;
+    /* height: 10px; */
+    border-bottom: dashed 1px #E4E5F0;
+}
+
+.product .info {
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product .info .info-text {
+    line-height: 20px;
+}
+/* product bill */
+.product-bill {
+    width: 60%;
+}
+
+.bill-header {
+    margin-bottom: 24px;
+}
+
+.bill-header-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.bill-header-info {
+    font-size: 14px;
+    color: var(--text-gray);
+}
+
+.bill-header-info-item {
+    display: inline-block;
+}
+
+div.bill-header-info-item {
+    width: 17px;
+    text-align: center;
+}
+
+.bill-header-info-item a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bill-price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.bill-promo-price {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.bill-promotion {
+    line-height: 16px;
+    height: 16px;
+}
+
+.bill-cost {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: var(--text-gray);
+    font-weight: 200;
+}
+
+.bill-promo-percent {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.bill-btns {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-btn {
+    width: 49%;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bill-btn.buying {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+
+.bill-btn.buying:hover {
+    background-color: #1230b0;
+}
+
+.bill-btn.add-to-cart {
+    background-color: transparent;
+    border: solid 1px var(--primary-color);
+    color: var(--primary-color);
+
+}
+
+.bill-info {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bill-info>div {
+    font-weight: bold;
+}
+
+.bill-info>ul {
+    padding-left: 32px;
+    margin-bottom: 16px;
+}
+
+.bill-info>ul>li {
+    margin-bottom: 7px;
+}
+
+.bill-info a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+/* sidebar */
+.main-sidebar {
+    width: 25%;
+}
+/* company */
+.main-sidebar .company {
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.main-sidebar .company-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px #cccccc;
+    display: flex;
+}
+
+.main-sidebar .company-img img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.main-sidebar .company-text {
+    width: 80%;
+}
+
+.main-sidebar .company-link {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 500;
+}
+
+.main-sidebar .company-link:hover {
+    color: var(--primary-color);
+}
+
+.main-sidebar .company-link span {
+    color: #30CD60;
+    margin-left: 4px;
+}
+/* Policy */
+.policy {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.policy-header {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.policy-items {
+
+}
+
+.policy-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.policy-img {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.policy-img img {
+    width: 100%;
+    height: auto;
+}
+
+.policy-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+/* information */
+.information {
+    background-color: #fff;
+    margin-bottom: 16px;
+    color: #333;
+    display: flex;
+}
+/* intro */
+.intro {
+    width: 70%;
+}
+
+.information-header {
+    height: 56px;
+    padding: 0 16px;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-content {
+    padding: 16px;
+}
+
+.intro-content h2,
+.intro-content h3 {
+    margin-bottom: 8px;
+}
+
+.intro-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intro-content h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.intro-content p {
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.intro-content strong {
+    font-weight: bold;
+}
+
+.intro-image {
+    margin-bottom: 16px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+}
+
+.intro-content a {
+    color: #0d6efd;
+}
+
+/* detail */
+.detail {
+    width: 30%;
+}
+
+.detail-content {
+    padding: 0 16px;
+}
+
+.detail-item {
+    padding: 12px 16px;
+    display: flex;
+    font-size: 13px;
+}
+
+.detail-item .p1 {
+    height: 40%;
+}
+
+.detail-item .p2 {
+    height: 60%;
+}
